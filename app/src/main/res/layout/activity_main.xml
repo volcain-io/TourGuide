@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="io.volcain.android.tourguide.MainActivity">
+
+    <LinearLayout
+        style="@style/MainLayoutStyle"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/sightseeing_layout"
+            style="@style/MainLayoutStyle">
+
+            <ImageView
+                android:id="@+id/sightseeing_image_view"
+                style="@style/CategoryImageStyle"
+                android:src="@drawable/sightseeing_main" />
+
+            <TextView
+                style="@style/CategoryTextStyle"
+                android:layout_alignBottom="@id/sightseeing_image_view"
+                android:text="@string/places_sightseeings" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/museum_layout"
+            style="@style/MainLayoutStyle">
+
+            <ImageView
+                android:id="@+id/museum_image_view"
+                style="@style/CategoryImageStyle"
+                android:src="@drawable/museum_main" />
+
+            <TextView
+                style="@style/CategoryTextStyle"
+                android:layout_alignBottom="@id/museum_image_view"
+                android:text="@string/places_museums" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/restaurant_layout"
+            style="@style/CategoryImageStyle">
+
+            <ImageView
+                android:id="@+id/restaurant_image_view"
+                style="@style/CategoryImageStyle"
+                android:src="@drawable/restaurants_main" />
+
+            <TextView
+                style="@style/CategoryTextStyle"
+                android:layout_alignBottom="@id/restaurant_image_view"
+                android:text="@string/places_restaurants" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/christkindlesmarkt_layout"
+            style="@style/CategoryImageStyle">
+
+            <ImageView
+                android:id="@+id/christkindlesmarkt_image_view"
+                style="@style/CategoryImageStyle"
+                android:src="@drawable/christkindelsmarkt_main" />
+
+            <TextView
+                style="@style/CategoryTextStyle"
+                android:layout_alignBottom="@id/christkindlesmarkt_image_view"
+                android:text="@string/places_christkindelsmarkt" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
