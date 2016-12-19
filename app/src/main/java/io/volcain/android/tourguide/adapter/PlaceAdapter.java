@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -36,7 +35,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
 
     @NonNull
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, final View convertView, ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
         if (listItemView == null) {
@@ -45,31 +44,39 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         // Get the {@link Place} object located at this position in the list
         final Place currentPlace = getItem(position);
 
-        // Find the ImageView in the list_item.xml layout with the ID list_item_icon
-        ImageView iconView = (ImageView) listItemView.findViewById(R.id.list_item_image_view);
-        // if Place object provides an image show it
-        if (currentPlace.hasImage()) {
-            // Get the image resource ID from the current Place object and set the image to iconView
-            iconView.setImageResource(currentPlace.getImageResourceId());
-            iconView.setVisibility(View.VISIBLE);
-        } else {
-            iconView.setVisibility(View.GONE);
+        if (currentPlace != null) {
+            // Find the ImageView in the list_item.xml layout with the ID list_item_icon
+            ImageView iconView = (ImageView) listItemView.findViewById(R.id.list_item_image_view);
+            // if Place object provides an image show it
+            if (currentPlace.hasImage()) {
+                // Get the image resource ID from the current Place object and set the image to iconView
+                iconView.setImageResource(currentPlace.getImageResourceId());
+                iconView.setVisibility(View.VISIBLE);
+            } else {
+                iconView.setVisibility(View.GONE);
+            }
+
+            // Find the TextView in the list_item.xml layout with the ID place_name_text_view
+            TextView placeNameTextView = (TextView) listItemView.findViewById(R.id.place_name_text_view);
+            // Get the place name from the current Place object and set this text on the name TextView
+            placeNameTextView.setText(currentPlace.getLocation().getName());
+
+            // Find the TextView in the list_item.xml layout with the ID entry_price_text_view
+            TextView entryPriceTextView = (TextView) listItemView.findViewById(R.id.entry_price_text_view);
+            // Get the entry price from the current Place object and set this text on the name TextView
+            entryPriceTextView.setText(currentPlace.getEntryPrice());
+
+            // Find the ImageView in the list_item.xml layout with the ID list_item_info_image_view
+            ImageView directionsView = (ImageView) listItemView.findViewById(R.id.list_item_info_image_view);
+            // If there is a website provided we will display the ic_language icon else ic_directions
+            if (currentPlace.hasWebsite()) {
+                directionsView.setImageResource(R.drawable.ic_language_black_36dp);
+            } else {
+                directionsView.setImageResource(R.drawable.ic_directions_black_36dp);
+            }
         }
 
-        // Set the theme color for the list item
-        LinearLayout linearLayout = (LinearLayout) listItemView.findViewById(R.id.item_container);
-
-        // Find the TextView in the list_item.xml layout with the ID short_desc_text_view
-        TextView shortDescTextView = (TextView) listItemView.findViewById(R.id.short_desc_text_view);
-        // Get the short description from the current Place object and set this text on the name TextView
-        shortDescTextView.setText(currentPlace.getShortDescription());
-
-        // Find the TextView in the list_item.xml layout with the ID entry_price_text_view
-        TextView entryPriceTextView = (TextView) listItemView.findViewById(R.id.entry_price_text_view);
-        // Get the short description from the current Place object and set this text on the name TextView
-        entryPriceTextView.setText(currentPlace.getEntryPrice());
-
-        // Return the whole list item layout (containing 2 TextViews) so that it can be shown in the ListView
+        // Return the whole list item layout (containing 2 TextViews and 2 ImageViews) so that it can be shown in the ListView
         return listItemView;
     }
 }

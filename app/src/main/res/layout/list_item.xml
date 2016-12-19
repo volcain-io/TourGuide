@@ -14,47 +14,32 @@
 
     <LinearLayout
         android:id="@+id/item_container"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp">
+        style="@style/ItemContainerStyle">
 
         <LinearLayout
             android:id="@+id/text_container"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/list_item_height"
-            android:layout_weight="2"
-            android:orientation="vertical">
+            style="@style/TextContainerStyle">
 
             <TextView
-                android:id="@+id/short_desc_text_view"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ellipsize="end"
-                android:gravity="top"
-                android:lines="3"
-                android:scrollHorizontally="true"
-                android:textAppearance="?android:textAppearanceListItemSmall"
-                android:textColor="@android:color/black"
-                tools:text="@string/sightseeing_former_party_ground_short_desc" />
+                android:id="@+id/place_name_text_view"
+                style="@style/PlaceNameTextViewStyle"
+                tools:text="@string/sightseeing_former_party_ground_name" />
+
+            <TextView
+                android:id="@+id/price_text_view"
+                style="@style/PlaceInfoTextViewStyle"
+                android:text="@string/price"
+                tools:text="@string/price" />
 
             <TextView
                 android:id="@+id/entry_price_text_view"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="top"
-                android:textAppearance="?android:textAppearance"
-                android:textColor="@android:color/black"
-                tools:text="7,- EUR" />
+                style="@style/PlaceInfoTextViewStyle"
+                tools:text="@string/sightseeing_former_party_ground_entry_price" />
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/list_item_play_audio_image_view"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="center_vertical"
-            android:src="@drawable/ic_directions_black_24dp" />
+            android:id="@+id/list_item_info_image_view"
+            style="@style/PlaceInfoIconImageViewStyle" />
 
     </LinearLayout>
 

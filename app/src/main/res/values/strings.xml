@@ -3,289 +3,254 @@
     <string name="city">Nuremberg</string>
     <string name="country">Germany</string>
     <string name="free_entry">Free entry</string>
+    <string name="price">Price</string>
 
     <!-- Places -->
     <string name="places_sightseeings">Sightseeings</string>
     <string name="places_museums">Museums</string>
     <string name="places_restaurants">Restaurants</string>
-    <string name="places_christkindelsmarkt">Christkindelsmarkt</string>
+    <string name="places_special_events">Special Events</string>
 
     <!-- Sightseeing places: Former Nazi Party Rally Grounds -->
     <string name="sightseeing_former_party_ground_name">Former Nazi Party Rally Grounds</string>
     <string name="sightseeing_former_party_ground_street" translatable="false">Bayernstraße 110</string>
     <string name="sightseeing_former_party_ground_zip_code" translatable="false">90478</string>
-    <string name="sightseeing_former_party_ground_short_desc">Former Nazi Party Rally Grounds and remaining structures: the unfinished Congress Hall, the main stand at the Zeppelinfeld and the Grosse Strasse (parade road) stand as mute witnesses to National Socialist megalomania.</string>
     <string name="sightseeing_former_party_ground_entry_price" translatable="false">@string/free_entry</string>
     <!-- Sightseeing places: Craftsmen\'s Courtyard -->
     <string name="sightseeing_craftmens_courtyard_name">Craftsmen\'s Courtyard</string>
     <string name="sightseeing_craftmens_courtyard_street" translatable="false">am Königstor</string>
     <string name="sightseeing_craftmens_courtyard_zip_code" translatable="false">90402</string>
-    <string name="sightseeing_craftmens_courtyard_short_desc">Behind the massive city walls craftsmen traditions are still being cultivated in the small workshops. Pewterers, glass cutters, leather workers, gold and silversmiths, stained glass painters, gingerbread-makers, and a doll-maker offer their wares for sale and let visitors look over their shoulders while they work.</string>
     <string name="sightseeing_craftmens_courtyard_entry_price" translatable="false">@string/free_entry</string>
     <!-- Sightseeing places: Imperial Castle -->
     <string name="sightseeing_imperial_castle_name">Imperial Castle</string>
     <string name="sightseeing_imperial_castle_street" translatable="false">Auf der Burg 13</string>
     <string name="sightseeing_imperial_castle_zip_code" translatable="false">90403</string>
-    <string name="sightseeing_imperial_castle_short_desc">The Imperial Castle atop the rocky promontory above Nuremberg was one of the most important fortified imperial palaces of the Old Holy Roman Empire.</string>
-    <string name="sightseeing_imperial_castle_entry_price" translatable="false">7,-</string>
+    <string name="sightseeing_imperial_castle_entry_price" translatable="false">7 EUR</string>
     <!-- Sightseeing places: Beautiful Fountain-->
     <string name="sightseeing_beautiful_fountain_name">Beautiful Fountain</string>
     <string name="sightseeing_beautiful_fountain_street" translatable="false">Hauptmarkt</string>
     <string name="sightseeing_beautiful_fountain_zip_code" translatable="false">90403</string>
-    <string name="sightseeing_beautiful_fountain_short_desc">Built ca. 1385-1396 by construction supervisor and stonemason Heinrich Beheim. The 19 m tall stone pyramid rises from the octagonal basin like a Gothic church spire, narrowing in three stages to the finial.</string>
     <string name="sightseeing_beautiful_fountain_entry_price" translatable="false">@string/free_entry</string>
     <!-- Sightseeing places: St. Lawrence Church -->
     <string name="sightseeing_lawrence_church_name">St. Lawrence Church</string>
     <string name="sightseeing_lawrence_church_street" translatable="false">Lorenzer Platz 10</string>
     <string name="sightseeing_lawrence_church_zip_code" translatable="false">90402</string>
-    <string name="sightseeing_lawrence_church_short_desc">Building begun about 1250. Originally built as a three-aisled basilica in the high Gothic style; later extended with an imposing late Gothic hall choir (1439-1477).</string>
-    <string name="sightseeing_lawrence_church_entry_price" translatable="false">5,-</string>
+    <string name="sightseeing_lawrence_church_entry_price" translatable="false">5 EUR</string>
     <!-- Sightseeing places: St. Sebald Church -->
     <string name="sightseeing_sebald_church_name">St. Sebald Church</string>
     <string name="sightseeing_sebald_church_street" translatable="false">Albrecht-Dürer-Platz 1</string>
     <string name="sightseeing_sebald_church_zip_code" translatable="false">90403</string>
-    <string name="sightseeing_sebald_church_short_desc">Nuremberg\'s oldest city parish church was built around 1215 as a three-aisled Late Romanesque pillared basilica with two choirs. As early as 1309 the original side aisles were widened and altered in the Gothic style.</string>
     <string name="sightseeing_sebald_church_entry_price" translatable="false">@string/free_entry</string>
     <!-- Sightseeing places: Zoological Garden -->
     <string name="sightseeing_zoo_garden_name">Zoological Garden</string>
     <string name="sightseeing_zoo_garden_street" translatable="false">Am Tiergarten 30</string>
     <string name="sightseeing_zoo_garden_zip_code" translatable="false">90480</string>
-    <string name="sightseeing_zoo_garden_short_desc">Whoever has experienced the wide variety and idylls of Nuremberg Zoo will come back again. The elegant movements of the dolphins and sea lions in the dolphin lagoon, the tropical atmosphere in the manatee house and the feeding of the polar bears in the Aqua Park provide an unforgettable experience. Young visitors have time to stroke and feed the animals in the children\'s zoo and run around in the huge playground.</string>
-    <string name="sightseeing_zoo_garden_entry_price" translatable="false">13,50</string>
+    <string name="sightseeing_zoo_garden_entry_price" translatable="false">13,50 EUR</string>
     <!-- Sightseeing places: The Way of Human Rights -->
     <string name="sightseeing_way_human_rights_name">The Way of Human Rights</string>
     <string name="sightseeing_way_human_rights_street" translatable="false">Kartäusergasse</string>
     <string name="sightseeing_way_human_rights_zip_code" translatable="false">90402</string>
-    <string name="sightseeing_way_human_rights_short_desc">The Way of Human Rights is entered through a stylized triumphal arch from the Kornmarkt and lined by 27, 8-meter-high concrete pillars.</string>
     <string name="sightseeing_way_human_rights_entry_price">Free entry</string>
     <!-- Sightseeing places: Hospital of the Holy Spirit -->
     <string name="sightseeing_hospital_holy_spirit_name">Hospital of the Holy Spirit</string>
     <string name="sightseeing_hospital_holy_spirit_street" translatable="false">Auf der Burg 13</string>
     <string name="sightseeing_hospital_holy_spirit_zip_code" translatable="false">90403</string>
-    <string name="sightseeing_hospital_holy_spirit_short_desc">Established from 1332 to 1339 as a foundation endowed by the wealthy patrician Konrad Groß (“Imperial Mayor”) for the elderly and needy. Considered the largest private endowment by any individual before 1500.</string>
     <string name="sightseeing_hospital_holy_spirit_entry_price" translatable="false">@string/free_entry</string>
     <!-- Sightseeing places: Church of Our Lady -->
     <string name="sightseeing_church_lady_name">Church of Our Lady</string>
     <string name="sightseeing_church_lady_street" translatable="false">Hauptmarkt 14</string>
     <string name="sightseeing_church_lady_zip_code" translatable="false">90403</string>
-    <string name="sightseeing_church_lady_short_desc">1355/58 Emperor Charles IV had the synagogue razed (pogrom 1349) and replaced by the first Gothic three-aisled hall church in Franconia, constructed as an imperial royal chapel.</string>
     <string name="sightseeing_church_lady_entry_price" translatable="false">@string/free_entry</string>
 
     <!-- Museum places: House of Albrecht Dürer -->
     <string name="museum_albrecht_duerer_name">House of Albrecht Dürer</string>
     <string name="museum_albrecht_duerer_street" translatable="false">Albrecht-Dürer-Straße 39</string>
     <string name="museum_albrecht_duerer_zip_code" translatable="false">90403</string>
-    <string name="museum_albrecht_duerer_short_desc">Albrecht Dürer\'s House, which has recently been restored, presents in a new concept the living and working quarters of one ofthe most famous painters and graphicartists in art history, namely Albrecht Dürer (1471-1528).</string>
-    <string name="museum_albrecht_duerer_entry_price" translatable="false">5,-</string>
+    <string name="museum_albrecht_duerer_entry_price" translatable="false">5 EUR</string>
     <!-- Museum places: Germanisches Nationalmuseum -->
     <string name="museum_german_nationalmuseum_name">Germanisches Nationalmuseum</string>
     <string name="museum_german_nationalmuseum_street" translatable="false">Kartäusergasse 1</string>
     <string name="museum_german_nationalmuseum_zip_code" translatable="false">90402</string>
-    <string name="museum_german_nationalmuseum_short_desc">Since its founding in 1852 the Germanisches Nationalmuseum has advanced to one of the largest museums of culturalhistory in the German-speaking world.</string>
-    <string name="museum_german_nationalmuseum_entry_price" translatable="false">8,-</string>
+    <string name="museum_german_nationalmuseum_entry_price" translatable="false">8 EUR</string>
     <!-- Museum places: Memorium Nuremberg Trials -->
     <string name="museum_memorium_trials_name">Memorium Nuremberg Trials</string>
     <string name="museum_memorium_trials_street" translatable="false">Bärenschanzstraße 72</string>
     <string name="museum_memorium_trials_zip_code" translatable="false">90429</string>
-    <string name="museum_memorium_trials_short_desc">In the criminal court of the Nuremberg Palace of Justice world history was written: On November 20, 1945 the trial against the "main war criminals" began in the criminal court, "Courtroom 600". 21 leading representatives of the National Socialist regime were made to answer for their crimes against peace and humanity. In October 1946, 11 months later, the sentences were pronounced. From 1946 to 1949 twelve Subsequent Proceedings were held before American military tribunals.</string>
-    <string name="museum_memorium_trials_entry_price" translatable="false">5,-</string>
+    <string name="museum_memorium_trials_entry_price" translatable="false">5 EUR</string>
     <!-- Museum places: Documentation Centre -->
     <string name="museum_docu_center_name">Documentation Centre</string>
     <string name="museum_docu_center_street" translatable="false">Bayernstraße 110</string>
     <string name="museum_docu_center_zip_code" translatable="false">90478</string>
-    <string name="museum_docu_center_short_desc">Documentation Centre Nazi Party Rally Grounds: In the Third Reich Nuremberg was the "City of the Nazi Party Rallies". The north wing of the unfinished Congress Hall on the former Nazi Party Rally grounds, designed by the National Socialists to accommodate 50,000 people, is now occupied by the Documentation Centre Nazi Party Rally Grounds.</string>
-    <string name="museum_docu_center_entry_price" translatable="false">5,-</string>
+    <string name="museum_docu_center_entry_price" translatable="false">5 EUR</string>
     <!-- Museum places: New Museum - State Museum for Art and Design -->
     <string name="museum_new_name">New Museum - State Museum for Art and Design</string>
     <string name="museum_new_street" translatable="false">Luitpoldstraße 5</string>
     <string name="museum_new_zip_code" translatable="false">90402</string>
-    <string name="museum_new_short_desc">The New Museum with its curved glass facade rises over the medieval city walls in the heart of Nuremberg. The handsome museum has received many awards for its striking modern architecture and is a venue for contemporary art and design.</string>
-    <string name="museum_new_entry_price" translatable="false">4,-</string>
+    <string name="museum_new_entry_price" translatable="false">4 EUR</string>
     <!-- Museum places: Toy Museum -->
     <string name="museum_toy_name">Toy Museum</string>
     <string name="museum_toy_street" translatable="false">Karlstraße 13 - 15</string>
     <string name="museum_toy_zip_code" translatable="false">90403</string>
-    <string name="museum_toy_short_desc">Ever since the Middle Ages Nuremberg has been a city of toys. Today, the world-famous Toy Museum with its wealth of exceptional exhibits breathes new life into this great historic tradition over 1,400 m2 of exhibition space.</string>
-    <string name="museum_toy_entry_price" translatable="false">5,-</string>
+    <string name="museum_toy_entry_price" translatable="false">5 EUR</string>
     <!-- Museum places: DB Railway Museum -->
     <string name="museum_db_railway_name">DB Railway Museum</string>
     <string name="museum_db_railway_street" translatable="false">Lessingstraße 6</string>
     <string name="museum_db_railway_zip_code" translatable="false">90443</string>
-    <string name="museum_db_railway_short_desc">The heart of the new DB Railway Museum is an exhibition landscape on the history of the railway in Germany. The walking tour- over 2,500 m2 on two stories - covers two centuries, including all their technological and economic, political and cultural aspects.</string>
-    <string name="museum_db_railway_entry_price" translatable="false">5,-</string>
+    <string name="museum_db_railway_entry_price" translatable="false">5 EUR</string>
     <!-- Museum places: Tucher Mansion Museum and the Hirsvogel Hall -->
     <string name="museum_tucher_mansion_name">Tucher Mansion Museum and the Hirsvogel Hall</string>
     <string name="museum_tucher_mansion_street" translatable="false">Hirschelgasse 9 - 11</string>
     <string name="museum_tucher_mansion_zip_code" translatable="false">90403</string>
-    <string name="museum_tucher_mansion_short_desc">The domestic world of a prominent 16th century merchant family comes to life again in the Tucher Mansion Museum. The private collection of the Tucher patrician family includes valuable furniture, tapestries, paintings and fine works of the decorative arts.</string>
-    <string name="museum_tucher_mansion_entry_price" translatable="false">5,-</string>
+    <string name="museum_tucher_mansion_entry_price" translatable="false">5 EUR</string>
     <!-- Museum places: Medieval Dungeons -->
     <string name="museum_medieval_dungeons_name">Medieval Dungeons</string>
     <string name="museum_medieval_dungeons_street" translatable="false">Rathausplatz 2</string>
     <string name="museum_medieval_dungeons_zip_code" translatable="false">90403</string>
-    <string name="museum_medieval_dungeons_short_desc">The dungeons are found in the cellar vaults of the Old Town Hall. They were set up in the 14th c. to serve as cells for prisoners awaiting trial or in custody until their execution.</string>
     <string name="museum_medieval_dungeons_entry_price" translatable="false">3,50</string>
     <!-- Museum places: City Museum Nuremberg -->
     <string name="museum_city_name">City Museum Nuremberg</string>
     <string name="museum_city_street" translatable="false">Burgstraße 15</string>
     <string name="museum_city_zip_code" translatable="false">90403</string>
-    <string name="museum_city_short_desc">Merchant\'s House, Patrician\'s Palatial Residence, Map Publishers, Museum - the City Museum Nuremberg in the  Fembo House built between 1591 and 1596 at the foot of the Imperial Castle is many-faceted.</string>
-    <string name="museum_city_entry_price" translatable="false">5,-</string>
+    <string name="museum_city_entry_price" translatable="false">5 EUR</string>
     <!-- Museum places: Museum of Industrial Culture -->
     <string name="museum_industrial_culture_name">Museum of Industrial Culture</string>
     <string name="museum_industrial_culture_street" translatable="false">Äußere Sulzbacher Straße 62</string>
     <string name="museum_industrial_culture_zip_code" translatable="false">90491</string>
-    <string name="museum_industrial_culture_short_desc">A building built as a screw factory during the 1920s now houses the Museum for Industrial Culture, the Motorcycle Museum "Ardie, Mars Co." and the School Museum with a historical classroom on 6,000 m2 exhibition space.</string>
-    <string name="museum_industrial_culture_entry_price" translatable="false">5,-</string>
+    <string name="museum_industrial_culture_entry_price" translatable="false">5 EUR</string>
     <!-- Museum places: Communications Museum -->
     <string name="museum_communications_name">Communications Museum</string>
     <string name="museum_communications_street" translatable="false">Lessingstraße 6</string>
     <string name="museum_communications_zip_code" translatable="false">90443</string>
-    <string name="museum_communications_short_desc">The Communications Museum focuses on people and the way they communicate - from the first cry of the newborn baby to the chat room.</string>
-    <string name="museum_communications_entry_price" translatable="false">5,-</string>
+    <string name="museum_communications_entry_price" translatable="false">5 EUR</string>
 
     <!-- Restaurant places: Albrecht-Dürer-Stube -->
     <string name="restaurant_albrecht_duerer_name">Albrecht-Dürer-Stube</string>
     <string name="restaurant_albrecht_duerer_street" translatable="false">Albrecht-Dürer-Straße 6</string>
     <string name="restaurant_albrecht_duerer_zip_code" translatable="false">90403</string>
-    <string name="restaurant_albrecht_duerer_short_desc">In the northern part of the medieval Old Town, at the corner of Agnesgasse between Weinmarkt and the Albrecht  Dürer House, the family-owned Albrecht-Dürer-Stube invites you to enjoy Franconian specialties. For more than 60 years, and now in the third generation, the Höllerzeder family has been providing the best creature comforts for their guests. Seasonal dishes (depending on the season, wild garlic, asparagus, mushroom, game or goose are available) are prepared fresh daily. A special highlight: An evening with Albrecht Dürer!</string>
     <string name="restaurant_albrecht_duerer_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Zur Baumwolle -->
     <string name="restaurant_zur_baumwolle_name">Zur Baumwolle</string>
     <string name="restaurant_zur_baumwolle_street" translatable="false">Adlerstraße 18-20</string>
     <string name="restaurant_zur_baumwolle_zip_code" translatable="false">90403</string>
-    <string name="restaurant_zur_baumwolle_short_desc">Housed in a small craftsman\'s house from the 15th century - as was once typical in the Free Imperial City of Nuremberg - the Hofer family invites you to enjoy traditional Franconian dishes made with fresh products from the local "Knoblauchsland". The cozy atmosphere and wonderful hospitality make your visit complete.</string>
     <string name="restaurant_zur_baumwolle_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Gasthof Weinländer -->
     <string name="restaurant_gasthof_weinlaender_name">Gasthof Weinländer</string>
     <string name="restaurant_gasthof_weinlaender_street" translatable="false">Rothenburger Straße 482</string>
     <string name="restaurant_gasthof_weinlaender_zip_code" translatable="false">90431</string>
-    <string name="restaurant_gasthof_weinlaender_short_desc">The tradition-steeped tavern with its decorative pegged wooden ceiling and rustic furnishings was first mentioned in 1502 and is one of the highlights of the gastronomic scene in the west of Nuremberg. The Weinländer offers changing daily specials and an extensive menu with a large selection of Franconian and international specialties and seasonal dishes. Look forward to culinary delights from grill and stovetop, hearty and healthy, tasty and traditional and fine fish.</string>
     <string name="restaurant_gasthof_weinlaender_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Reichelsdorfer Keller -->
     <string name="restaurant_reichelsdorfer_keller_name">Reichelsdorfer Keller</string>
     <string name="restaurant_reichelsdorfer_keller_street" translatable="false">Georg-Stefan-Str. 53</string>
     <string name="restaurant_reichelsdorfer_keller_zip_code" translatable="false">90453</string>
-    <string name="restaurant_reichelsdorfer_keller_short_desc">The Reichelsdorfer Keller is mostly known as a dance place and bar. Yet its restaurant is open every Saturday from 6 - 10 pm and Sunday from 11 am - 9 pm and offers a limited, yet excellent selections of regional and Mediterranean foods. Quality and freshness of ingredients are very important and a new and varied menu is created each week.</string>
     <string name="restaurant_reichelsdorfer_keller_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Landgasthof Gentner -->
     <string name="restaurant_landgasthof_gentner_name">Landgasthof Gentner</string>
     <string name="restaurant_landgasthof_gentner_street" translatable="false">Bregenzer Straße 31</string>
     <string name="restaurant_landgasthof_gentner_zip_code" translatable="false">90475</string>
-    <string name="restaurant_landgasthof_gentner_short_desc">Let yourself be spoiled by the culinary delights in the Landgasthof Hotel Gentner. Regional and international fresh cuisine prepared with lot of love and the best ingredients lets the hearts of gourmets beat faster. Experience pleasant hours with our warm hospitality in the cozy restaurant or wonderful lounge. Whether you jus need a snack or you want to take time to enjoy - at Gentner you are alway at the right place!</string>
     <string name="restaurant_landgasthof_gentner_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Burgwächter -->
     <string name="restaurant_burgwaechter_name">Burgwächter</string>
     <string name="restaurant_burgwaechter_street" translatable="false">Am Oelberg 10</string>
     <string name="restaurant_burgwaechter_zip_code" translatable="false">90403</string>
-    <string name="restaurant_burgwaechter_short_desc">Eat, drink and relax in the highest restaurant and beer garden in Nuremberg. Only five minutes walk from main market square, the "Burgwächter" lies at the foot of the Imperial Castle. The menu offers a large variety of fresh Franconian and international foods. Sunday roast and Schäufele pork shoulder, asparagus in summer, goose and duck in autumn and winter, pork knuckle (when pre-ordered) and festive "Ritter Eppelein" and "Enjoy dining like the Gauls" meals round out the offerings.</string>
     <string name="restaurant_burgwaechter_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Böhm\'s Herrenkeller -->
     <string name="restaurant_boehms_herrenkeller_name">Böhm\'s Herrenkeller</string>
     <string name="restaurant_boehms_herrenkeller_street" translatable="false">Theatergasse 19</string>
     <string name="restaurant_boehms_herrenkeller_zip_code" translatable="false">90402</string>
-    <string name="restaurant_boehms_herrenkeller_short_desc">Fine Franconian wines, the famous Franconian Schäufele pork shoulder, regional products like carp, Nuremberg bratwurst and specialties from the grill make the Herrenkeller one of the favorite addresses for both local regulars and visitors to the city of Nuremberg. One reason is no doubt that the menu at the Herrenkeller successfully combines Franconian-tradition with new German cuisine. A special highlight: A winetasting with Hans Sachs.</string>
     <string name="restaurant_boehms_herrenkeller_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Schäufelewärtschaft -->
     <string name="restaurant_schaeufelewaertschaft_name">Schäufelewärtschaft</string>
     <string name="restaurant_schaeufelewaertschaft_street" translatable="false">Schweiggerstraße 19</string>
     <string name="restaurant_schaeufelewaertschaft_zip_code" translatable="false">90478</string>
-    <string name="restaurant_schaeufelewaertschaft_short_desc">At the Schäufelewärtschaft in the southern part of the Old Town, you will experience Franconian hospitality and region cuisine at the same time. As the name says, Schäufele bone-in pork shoulder - is the specialty of the house. Around 400 Schäufele are eaten here each week. Schäufele is also available in a "ladies" portion, in case you are not so hungry. Naturally we serve other regional and vegetarian dishes as well as a daily fresh lunch special.</string>
     <string name="restaurant_schaeufelewaertschaft_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Pillhofer -->
     <string name="restaurant_pillhofer_name">Pillhofer</string>
     <string name="restaurant_pillhofer_street" translatable="false">Königstrasse 78</string>
     <string name="restaurant_pillhofer_zip_code" translatable="false">90402</string>
-    <string name="restaurant_pillhofer_short_desc">Juiciy steaks from Franconian pasture beef, home-made noodles and egg dishes, Nuremberg specialties and light meals, game and roasts as well as local fish and organic products are only part of the menu. The entire food and drink spectrum is tuned to the current season and modern and traditional cuisine. The beer garden with 170 seats welcomes you to relax, eat, drink and enjoy the fresh air during the warmer month.</string>
     <string name="restaurant_pillhofer_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Alte Küch\'n -->
     <string name="restaurant_alte_kuechn_name">Alte Küch\'n</string>
     <string name="restaurant_alte_kuechn_street" translatable="false">Albrecht Dürer Straße 3</string>
     <string name="restaurant_alte_kuechn_zip_code" translatable="false">90403</string>
-    <string name="restaurant_alte_kuechn_short_desc">A homelike atmosphere awaits you at the Alte Küchn\'n, reminding you of the good old days in grandma\'s kitchen. You can see whether or not the cook is as good as your grandmother - all the food is prepared before your eyes. Whether you love hearty Franconian and Bavarian food you are vegetarian or fan of international cuisine, the Alte Küch\'n offers something for every taste. A specialty of the house is home-made potato pancakes - available in a variety of flavors and toppings.</string>
     <string name="restaurant_alte_kuechn_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Gaststätte Petzengarten -->
     <string name="restaurant_petzengarten_name">Gaststätte Petzengarten</string>
     <string name="restaurant_petzengarten_street" translatable="false">Wilhelm-Spaeth-Str. 47</string>
     <string name="restaurant_petzengarten_zip_code" translatable="false">90461</string>
-    <string name="restaurant_petzengarten_short_desc">With the philosophy "typically Franconian with ambience", the Gaststätte Petzengarten invites you to enjoy yourself in a cozy atmosphere. The Petzengarten has been owned by the same family for four generations and offers a mixture of typical Franconian cuisine and international dishes. In summer, the romantic, quiet beer garden invites you to sit and enjoy. Relax under the trees, listen to the splashing of the fountain - it\'s a place to forget about life for a while.</string>
     <string name="restaurant_petzengarten_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Weinrestaurant Steichele -->
     <string name="restaurant_steichele_name">Weinrestaurant Steichele</string>
     <string name="restaurant_steichele_street" translatable="false">Knorrstraße 2-8</string>
     <string name="restaurant_steichele_zip_code" translatable="false">90402</string>
-    <string name="restaurant_steichele_short_desc">The Steichele wine restaurant has been located in the historical Old Town of Nuremberg for more than 100 years. Here, for five generations, the Steichele family has been welcoming guests with Franconian warmth and hospitality. The menu reflects traditional Franconian cooking and all ingredients come from specially selected local suppliers and producers. Freshness and purity is therefore guaranteed. The daily and seasonal menus use what is available at market at the moment. The Steichele can thereby offer seasonal fish and game specialties as well as typical regional vegetables, such as asparagus and wild mushrooms.</string>
     <string name="restaurant_steichele_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Fränkische Weinstube -->
     <string name="restaurant_fraenkische_weinstube_name">Fränkische Weinstube</string>
     <string name="restaurant_fraenkische_weinstube_street" translatable="false">Am Königstor (Häuschen Nr. 5)</string>
     <string name="restaurant_fraenkische_weinstube_zip_code" translatable="false">90402</string>
-    <string name="restaurant_fraenkische_weinstube_short_desc">The Fränkische Weinstube of Innkeeper Carola Whner is located in the wonderful and traditional Craftmen\'s Courtyard. Here, guests are warmly welcomed with a colorful array of Franconian specialties. As the name indicates, fine Franconian wines are served here, which are guaranteed to please every palate. And that is naturally not all. How about a few delicious treats of seasonal Franconian cuisine? No problem! Take a seat in the romantic and dreamy courtyard near the wine press, surrounded by flowers and grapevines. There, lovingly decorated wooden tables invite you to stay and enjoy.</string>
     <string name="restaurant_fraenkische_weinstube_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Heilig-Geist-Spital -->
     <string name="restaurant_heilig_geist_spital_name">Heilig-Geist-Spital</string>
     <string name="restaurant_heilig_geist_spital_street" translatable="false">Spitalgasse 16</string>
     <string name="restaurant_heilig_geist_spital_zip_code" translatable="false">90403</string>
-    <string name="restaurant_heilig_geist_spital_short_desc">The Heilig-Geist-Spital with its restaurant and wine tavern in the Nuremberg Old Town offers down-to-earth Franconian cuisine with a large variety of regional specialties and local wines. Spend happy hours in the historical atmosphere and one-of-a-kind location - directly over the Pegnitz River - in the Heilig-Geist-Spital in the heart of the city, one of the best-known and historically important buildings in Nuremberg.</string>
     <string name="restaurant_heilig_geist_spital_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Zum Spießgesellen -->
     <string name="restaurant_zum_spiessgesellen_name">Zum Spießgesellen</string>
     <string name="restaurant_zum_spiessgesellen_street" translatable="false">Rathausplatz 4</string>
     <string name="restaurant_zum_spiessgesellen_zip_code" translatable="false">90403</string>
-    <string name="restaurant_zum_spiessgesellen_short_desc">Whether you take a short break, a cozy rest or celebrate a splendid banquet - enjoy the one-of-a-kind atmosphere of the Spießgesellen, located in the Baroque old city hall from 1612. Fine Franconian and regional specialties served by charming "campf followers" - sometimes you will even meet an important historical figure: This is entertainment gastronomy for body, spirit and soul! The menu presents excellent specialties from Franconian and Southern German cuisine and beer and wine cellars.</string>
     <string name="restaurant_zum_spiessgesellen_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Barfüßer -->
     <string name="restaurant_barfuesser_name">Barfüßer</string>
     <string name="restaurant_barfuesser_street" translatable="false">Hallplatz 2</string>
     <string name="restaurant_barfuesser_zip_code" translatable="false">90402</string>
-    <string name="restaurant_barfuesser_short_desc">Barfüßer was established in 1994 and, with its traditional Franconian food, has become part of the landscape of the Nuremberg Old Town. The stylish décor harmonizes with the lovingly collected curiosities, which may surprise you or make you laugh. You can meet an eclectic group of people here seven days a week. We brew our own natural, unfiltered beer in front of your eyes in our copper fermenting tanks, following the German Beer Purity Law.</string>
     <string name="restaurant_barfuesser_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Raubritter -->
     <string name="restaurant_raubritter_name">Raubritter</string>
     <string name="restaurant_raubritter_street" translatable="false">Untere Schmiedgasse 4</string>
     <string name="restaurant_raubritter_zip_code" translatable="false">90403</string>
-    <string name="restaurant_raubritter_short_desc">In the 600-year-old sandstone cellar of the Raubritter, one sets off on a fantasy-filled journey to the Middle Ages. On the culinary side, the restaurant offers "fine" and "hearty" food served from old-fashioned bowls. In order to eat on the plain oak tables, the guest has to descend into Nuremberg\'s underworld. This cellar previously housed a craftsman\'s shop, a wine cellar and a distillery. This atmosphere allows you to celebrate the old-fashioned way. A special highlight is a "knight\'s banquet".</string>
     <string name="restaurant_raubritter_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Gaststätte Augustiner - Zur Schranke -->
     <string name="restaurant_zur_schranke_name">Gaststätte Augustiner - Zur Schranke</string>
     <string name="restaurant_zur_schranke_street" translatable="false">Beim Tiergärtnertor 3</string>
     <string name="restaurant_zur_schranke_zip_code" translatable="false">90403</string>
-    <string name="restaurant_zur_schranke_short_desc">The picturesque half-timbered house was built in 1530 and has a long history as a tavern. In the historical ambience of this cozy inn, you can enjoy hearty Franconian cuisine, such as original Nuremberg bratwurst or crispy Schäufele pork shoulder and other home-made specialties. On pleasantly warm summer evenings, our beer garden invites you to sit back and relax. With a quaffable Augustiner beer or a glass of wine, you can relax and enjoy the bustling life on Tiergärtnertorplatz and the romantic view of the famous Albrecht Dürer house and imposing Nuremberg Imperial Castle.</string>
     <string name="restaurant_zur_schranke_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Hexenhäusle -->
     <string name="restaurant_hexenhaeusle_name">Hexenhäusle</string>
     <string name="restaurant_hexenhaeusle_street" translatable="false">Vestnertorgraben 4</string>
     <string name="restaurant_hexenhaeusle_zip_code" translatable="false">90408</string>
-    <string name="restaurant_hexenhaeusle_short_desc">The listed, historical Gasthaus which has been unchanged sinde 1877 (then still described as the "Torschreiberhaus" - guard\'s house for the nearby city gate) and the historical garden with its 400 seats invite you to enjoy a snack in the shade on hot days and hearty Franconian cuisine during a cozy evening. This little treasure located directly below the castle wall offers a one-of-a-kind view of the Imperial Castle, while seated in the midst of a wonderful, flower-filled garden.</string>
     <string name="restaurant_hexenhaeusle_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Zum Karlsbrückla -->
     <string name="restaurant_zum_karlsbrueckla_name">Zum Karlsbrückla</string>
     <string name="restaurant_zum_karlsbrueckla_street" translatable="false">Obere Wörthstraße 2</string>
     <string name="restaurant_zum_karlsbrueckla_zip_code" translatable="false">90408</string>
-    <string name="restaurant_zum_karlsbrueckla_short_desc">The Karlsbrückla, once known as the Göckerla, has a long tradition. Home-cooded and yet in good style, you can enjoy Franconian specialties. Only specially selected regional ingredients are used; fine Franconian wines and beer make the pleasure complete. Whether hearty or light, there\'s something here for every taste.</string>
     <string name="restaurant_zum_karlsbrueckla_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Goldenes Posthorn -->
     <string name="restaurant_goldenes_posthorn_name">Goldenes Posthorn</string>
     <string name="restaurant_goldenes_posthorn_street" translatable="false">Glöckleinsgasse 2</string>
     <string name="restaurant_goldenes_posthorn_zip_code" translatable="false">90403</string>
-    <string name="restaurant_goldenes_posthorn_short_desc">The Goldenes Posthorn is Germany\'s oldest wine tavern (since 1498) and the former favorite pub of Albrecht Dürer and Hans Sachs. It has a wonderful location with a view of St. Sebald\'s Church. If you want to indulge yourself in a historical moment, order the original Nuremberg Rostbratwurst and a proper Franconian wine or something else that is typical for the region. The Goldenes Posthorn: Nuremberg, just as it should be!</string>
     <string name="restaurant_goldenes_posthorn_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Bratwurst Röslein -->
     <string name="restaurant_bratwurst_roeslein_name">Bratwurst Röslein</string>
     <string name="restaurant_bratwurst_roeslein_street" translatable="false">Rathausplatz 6</string>
     <string name="restaurant_bratwurst_roeslein_zip_code" translatable="false">90403</string>
-    <string name="restaurant_bratwurst_roeslein_short_desc">Bratwurst Röslein is the largest sausage kitchen in the world and ties Franconian tradition with an extremely cozy atmosphere - since 1431 in the heart of the Nuremberg Old Town, next to the world-famous Christmas Market. The Förster family will welcome you with original Nuremberg Bratwurst and Franconian delicacies that are cooked before your eyes.</string>
     <string name="restaurant_bratwurst_roeslein_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Etzerdla -->
     <string name="restaurant_etzerdla_name">Etzerdla</string>
     <string name="restaurant_etzerdla_street" translatable="false">Weinmarkt 16</string>
     <string name="restaurant_etzerdla_zip_code" translatable="false">90403</string>
-    <string name="restaurant_etzerdla_short_desc">Restaurant Etzerdla is situated in the beautiful Old Town of Nuremberg and combines modern ambience with Franconian cosiness. We offer Franconian delicacies, hearty snacks as well as a great variety of regional beers, wines and brandies.</string>
     <string name="restaurant_etzerdla_entry_price" translatable="false">@string/free_entry</string>
     <!-- Restaurant places: Restaurant Oberkrainer -->
     <string name="restaurant_oberkrainer_name">Restaurant Oberkrainer</string>
     <string name="restaurant_oberkrainer_street" translatable="false">Hauptmarkt 7</string>
     <string name="restaurant_oberkrainer_zip_code" translatable="false">90403</string>
-    <string name="restaurant_oberkrainer_short_desc">At restaurant Oberkrainer you will be pampered with traditional Franconian or international specialities. Our cozy restaurant at the Nuremberg Main Market Square provides spaces for 150 guests and our comfortable terrace will invite our guests to linger.</string>
     <string name="restaurant_oberkrainer_entry_price" translatable="false">@string/free_entry</string>
+
+    <!-- Special Events: Christkindelsmarkt -->
+    <string name="event_christkindelsmarkt_name">Christkindelsmarkt</string>
+    <string name="event_christkindelsmarkt_street" translatable="false">Hauptmarkt</string>
+    <string name="event_christkindelsmarkt_zip_code" translatable="false">90402</string>
+    <string name="event_christkindelsmarkt_entry_price" translatable="false">@string/free_entry</string>
+    <!-- Special Events: The Blue Night -->
+    <string name="event_blue_night_name">The Blue Night</string>
+    <string name="event_blue_night_website" translatable="false">http://www.blauenacht.nuernberg.de/</string>
+    <string name="event_blue_night_entry_price" translatable="false">@string/free_entry</string>
 </resources>

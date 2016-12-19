@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         christkindelsmarktLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent christkindelsmarktIntent = new Intent(MainActivity.this, ChristkindelsmarktActivity.class);
+                Intent christkindelsmarktIntent = new Intent(MainActivity.this, SpecialEventsActivity.class);
                 startActivity(christkindelsmarktIntent);
             }
         });

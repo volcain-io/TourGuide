@@ -17,11 +17,11 @@
 
             <ImageView
                 android:id="@+id/sightseeing_image_view"
-                style="@style/CategoryImageStyle"
+                style="@style/PlaceImageStyle"
                 android:src="@drawable/sightseeing_main" />
 
             <TextView
-                style="@style/CategoryTextStyle"
+                style="@style/PlaceTextStyle"
                 android:layout_alignBottom="@id/sightseeing_image_view"
                 android:text="@string/places_sightseeings" />
         </RelativeLayout>
@@ -32,43 +32,43 @@
 
             <ImageView
                 android:id="@+id/museum_image_view"
-                style="@style/CategoryImageStyle"
+                style="@style/PlaceImageStyle"
                 android:src="@drawable/museum_main" />
 
             <TextView
-                style="@style/CategoryTextStyle"
+                style="@style/PlaceTextStyle"
                 android:layout_alignBottom="@id/museum_image_view"
                 android:text="@string/places_museums" />
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/restaurant_layout"
-            style="@style/CategoryImageStyle">
+            style="@style/PlaceImageStyle">
 
             <ImageView
                 android:id="@+id/restaurant_image_view"
-                style="@style/CategoryImageStyle"
+                style="@style/PlaceImageStyle"
                 android:src="@drawable/restaurants_main" />
 
             <TextView
-                style="@style/CategoryTextStyle"
+                style="@style/PlaceTextStyle"
                 android:layout_alignBottom="@id/restaurant_image_view"
                 android:text="@string/places_restaurants" />
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/christkindlesmarkt_layout"
-            style="@style/CategoryImageStyle">
+            style="@style/PlaceImageStyle">
 
             <ImageView
                 android:id="@+id/christkindlesmarkt_image_view"
-                style="@style/CategoryImageStyle"
-                android:src="@drawable/christkindelsmarkt_main" />
+                style="@style/PlaceImageStyle"
+                android:src="@drawable/special_events_main" />
 
             <TextView
-                style="@style/CategoryTextStyle"
+                style="@style/PlaceTextStyle"
                 android:layout_alignBottom="@id/christkindlesmarkt_image_view"
-                android:text="@string/places_christkindelsmarkt" />
+                android:text="@string/places_special_events" />
         </RelativeLayout>
 
     </LinearLayout>

@@ -14,15 +14,15 @@
         <item name="android:layout_height">match_parent</item>
     </style>
 
-    <!-- Category image style (used in the activity_main.xml) -->
-    <style name="CategoryImageStyle">
+    <!-- Place image style (used in the activity_main.xml) -->
+    <style name="PlaceImageStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:adjustViewBounds">true</item>
     </style>
 
-    <!-- Category text style (used in the activity_main.xml) -->
-    <style name="CategoryTextStyle">
+    <!-- Place text style (used in the activity_main.xml) -->
+    <style name="PlaceTextStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/colorPrimary</item>
@@ -35,4 +35,52 @@
         <item name="android:paddingRight">4dp</item>
         <item name="android:paddingBottom">4dp</item>
     </style>
+
+    <!-- Item container style (used in the list_item.xml) -->
+    <style name="ItemContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <!-- Text container style (used in the list_item.xml) -->
+    <style name="TextContainerStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <!-- Place name text view style (used in the list_item.xml) -->
+    <style name="PlaceNameTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start</item>
+        <item name="android:lines">2</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Place info text view style (used in the list_item.xml) -->
+    <style name="PlaceInfoTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Place info icon image view style (used in the list_item.xml) -->
+    <style name="PlaceInfoIconImageViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:src">@drawable/ic_directions_black_36dp</item>
+    </style>
+
 </resources>

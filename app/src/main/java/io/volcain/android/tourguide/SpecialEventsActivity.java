@@ -20,7 +20,7 @@ import io.volcain.android.tourguide.adapter.PlaceAdapter;
 import io.volcain.android.tourguide.module.Location;
 import io.volcain.android.tourguide.module.Place;
 
-public class SightseeingsActivity extends AppCompatActivity {
+public class SpecialEventsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,54 +34,14 @@ public class SightseeingsActivity extends AppCompatActivity {
         // Create a list of places
         final ArrayList<Place> places = new ArrayList<>();
 
-        // Former Nazi Party Rally Grounds
-        Location location = new Location(getString(R.string.sightseeing_former_party_ground_name), getString(R.string.sightseeing_former_party_ground_street), getString(R.string.sightseeing_former_party_ground_zip_code));
-        Place place = new Place(getString(R.string.sightseeing_former_party_ground_entry_price), R.drawable.sightseeing_former_party_ground, location);
+        // Christkindelsmarkt
+        Location location = new Location(getString(R.string.event_christkindelsmarkt_name), getString(R.string.event_christkindelsmarkt_street), getString(R.string.event_christkindelsmarkt_zip_code));
+        Place place = new Place(getString(R.string.event_christkindelsmarkt_entry_price), R.drawable.event_christkindelsmarkt, location);
         places.add(place);
 
-        // Craftsmen's Courtyard
-        location = new Location(getString(R.string.sightseeing_craftmens_courtyard_name), getString(R.string.sightseeing_craftmens_courtyard_street), getString(R.string.sightseeing_craftmens_courtyard_zip_code));
-        place = new Place(getString(R.string.sightseeing_craftmens_courtyard_entry_price), R.drawable.sightseeing_craftmens_courtyard, location);
-        places.add(place);
-
-        // Imperial Castle
-        location = new Location(getString(R.string.sightseeing_imperial_castle_name), getString(R.string.sightseeing_imperial_castle_street), getString(R.string.sightseeing_imperial_castle_zip_code));
-        place = new Place(getString(R.string.sightseeing_imperial_castle_entry_price), R.drawable.sightseeing_imperial_castle, location);
-        places.add(place);
-
-        // Beautiful Fountain
-        location = new Location(getString(R.string.sightseeing_beautiful_fountain_name), getString(R.string.sightseeing_beautiful_fountain_street), getString(R.string.sightseeing_beautiful_fountain_zip_code));
-        place = new Place(getString(R.string.sightseeing_beautiful_fountain_entry_price), R.drawable.sightseeing_beautiful_fountain, location);
-        places.add(place);
-
-        // St. Lawrence Church
-        location = new Location(getString(R.string.sightseeing_lawrence_church_name), getString(R.string.sightseeing_lawrence_church_street), getString(R.string.sightseeing_lawrence_church_zip_code));
-        place = new Place(getString(R.string.sightseeing_lawrence_church_entry_price), R.drawable.sightseeing_lawrence_church, location);
-        places.add(place);
-
-        // St. Sebald Church
-        location = new Location(getString(R.string.sightseeing_sebald_church_name), getString(R.string.sightseeing_sebald_church_street), getString(R.string.sightseeing_sebald_church_zip_code));
-        place = new Place(getString(R.string.sightseeing_sebald_church_entry_price), R.drawable.sightseeing_sebald_church, location);
-        places.add(place);
-
-        // Zoological Garden
-        location = new Location(getString(R.string.sightseeing_zoo_garden_name), getString(R.string.sightseeing_zoo_garden_street), getString(R.string.sightseeing_zoo_garden_zip_code));
-        place = new Place(getString(R.string.sightseeing_zoo_garden_entry_price), R.drawable.sightseeing_zoo_garden, location);
-        places.add(place);
-
-        // The Way of Human Rights
-        location = new Location(getString(R.string.sightseeing_way_human_rights_name), getString(R.string.sightseeing_way_human_rights_street), getString(R.string.sightseeing_way_human_rights_zip_code));
-        place = new Place(getString(R.string.sightseeing_way_human_rights_entry_price), R.drawable.sightseeing_way_human_rights, location);
-        places.add(place);
-
-        // Hospital of the Holy Spirit
-        location = new Location(getString(R.string.sightseeing_hospital_holy_spirit_name), getString(R.string.sightseeing_hospital_holy_spirit_street), getString(R.string.sightseeing_hospital_holy_spirit_zip_code));
-        place = new Place(getString(R.string.sightseeing_hospital_holy_spirit_entry_price), R.drawable.sightseeing_hospital_holy_spirit, location);
-        places.add(place);
-
-        // Church of Our Lady
-        location = new Location(getString(R.string.sightseeing_church_lady_name), getString(R.string.sightseeing_church_lady_street), getString(R.string.sightseeing_church_lady_zip_code));
-        place = new Place(getString(R.string.sightseeing_church_lady_entry_price), R.drawable.sightseeing_church_lady, location);
+        // The Blue Night
+        location = new Location(getString(R.string.event_blue_night_name), null, null);
+        place = new Place(getString(R.string.event_blue_night_entry_price), R.drawable.event_blue_night, location, getString(R.string.event_blue_night_website));
         places.add(place);
 
         // Create an ArrayAdapter, whose data source is a list of Place objects. The
@@ -107,9 +67,17 @@ public class SightseeingsActivity extends AppCompatActivity {
                 // Get the {@link Place} object at the given position the user clicked on
                 final Place place = places.get(position);
 
-                // Build the intent
-                Location placeLocation = place.getLocation();
-                String uriString = "geo:0,0?q=" + placeLocation.getName() + "," + placeLocation.getStreet() + "," + placeLocation.getZipCode() + "," + getString(placeLocation.getCityId()) + "," + getString(placeLocation.getCountryId());
+                String uriString;
+
+                // if there is a website provided we will use that information else we will use the address
+                if (place.hasWebsite()) {
+                    uriString = place.getWebsite();
+                } else {
+                    // Build the intent
+                    Location placeLocation = place.getLocation();
+                    uriString = "geo:0,0?q=" + placeLocation.getName() + "," + placeLocation.getStreet() + "," + placeLocation.getZipCode() + "," + getString(placeLocation.getCityId()) + "," + getString(placeLocation.getCountryId());
+                }
+
                 Uri location = Uri.parse(uriString);
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, location);
 
