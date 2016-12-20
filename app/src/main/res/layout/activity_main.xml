@@ -57,7 +57,7 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/christkindlesmarkt_layout"
+            android:id="@+id/specialevents_layout"
             style="@style/PlaceImageStyle">
 
             <ImageView

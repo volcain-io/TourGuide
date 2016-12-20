@@ -24,39 +24,40 @@ public class MainActivity extends AppCompatActivity {
     private void initOnClickListeners() {
         // Set a click listener on that layout (Sigthseeings)
         RelativeLayout sightseeingsLayout = (RelativeLayout) findViewById(R.id.sightseeing_layout);
-        sightseeingsLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent sightseeingsIntent = new Intent(MainActivity.this, SightseeingsActivity.class);
-                startActivity(sightseeingsIntent);
-            }
-        });
+        sightseeingsLayout.setOnClickListener(new ClickListener());
         // Set a click listener on that layout (Museums)
         RelativeLayout museumsLayout = (RelativeLayout) findViewById(R.id.museum_layout);
-        museumsLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent museumsIntent = new Intent(MainActivity.this, MuseumsActivity.class);
-                startActivity(museumsIntent);
-            }
-        });
+        museumsLayout.setOnClickListener(new ClickListener());
         // Set a click listener on that layout (Restaurants)
         RelativeLayout restaurantsLayout = (RelativeLayout) findViewById(R.id.restaurant_layout);
-        restaurantsLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent restaurantsIntent = new Intent(MainActivity.this, RestaurantsActivity.class);
-                startActivity(restaurantsIntent);
+        restaurantsLayout.setOnClickListener(new ClickListener());
+        // Set a click listener on that layout (Special Events)
+        RelativeLayout specialEventsLayout = (RelativeLayout) findViewById(R.id.specialevents_layout);
+        specialEventsLayout.setOnClickListener(new ClickListener());
+    }
+
+    private class ClickListener implements View.OnClickListener {
+        Class<?> aClass;
+
+        @Override
+        public void onClick(View view) {
+            switch (view.getId()) {
+                case R.id.sightseeing_layout:
+                    aClass = SightseeingsActivity.class;
+                    break;
+                case R.id.museum_layout:
+                    aClass = MuseumsActivity.class;
+                    break;
+                case R.id.restaurant_layout:
+                    aClass = RestaurantsActivity.class;
+                    break;
+                case R.id.specialevents_layout:
+                    aClass = SpecialEventsActivity.class;
+                    break;
             }
-        });
-        // Set a click listener on that layout (Christkindelsmarkt)
-        RelativeLayout christkindelsmarktLayout = (RelativeLayout) findViewById(R.id.christkindlesmarkt_layout);
-        christkindelsmarktLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent christkindelsmarktIntent = new Intent(MainActivity.this, SpecialEventsActivity.class);
-                startActivity(christkindelsmarktIntent);
-            }
-        });
+
+            Intent placeIntent = new Intent(MainActivity.this, aClass);
+            startActivity(placeIntent);
+        }
     }
 }
